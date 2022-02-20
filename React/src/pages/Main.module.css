@@ -1,0 +1,97 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+} */
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  scroll-snap-align: start;
+  
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  
+}
+
+.firstpage123 {
+  /* background: rgb(36, 164, 138); */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('back.jpg');
+  background-size: cover;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+}
+
+.secondpage123 {
+  /* background: rgb(211, 79, 79); */
+  background-color: white;
+  padding: 8px 12px 12px 8px;
+  background-size: cover;
+  align-items: center;
+  color: black;
+}
+
+.test {
+  /* background: rgb(211, 79, 79); */
+  background-color: white;
+  padding: 8px 12px 12px 8px;
+}
+
+
+.button {
+  /* background-color: #4CAF50; */
+  background-color: rgb(153, 169, 194);
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 16px;
+  width: 300px;
+  height: 450px;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 8px 12px 50px 50px;
+}
+
+.fff {
+  font-size: 40px;
+}
+
+.scr {
+  display: block;
+  margin-top: 90vh;
+} 
+
+.centertext {
+  text-align: center;
+  position: absolute; 
+}
+
+.secondtext {
+  margin-top: 500px;
+  /* margin-bottom: 10vh; */
+  /* position: absolute; */
+  text-align: center;
+  /* text-align-last: auto; */
+  
+
+}
+
+
+.source {
+  text-decoration: none;
+  margin-left: 60%;
+}
+.source1 {
+  text-decoration: none;
+  margin-left: 15px;
+}
